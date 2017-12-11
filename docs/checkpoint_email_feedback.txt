@@ -1,10 +1,17 @@
 The short story is your project is looking good! I've included some more detailed commentary and suggestions on the pdf you submitted.
 
-I did have one conceptual question.. You mention at the outset that "The main question dream analysts [want to know] is how unusual someone's dreams are [relative to] the general population". However, throughout the write-up you're clear that it's important that you find intelligible, coherent dream topics. Is the idea behind this that you need to build a model that you can intuitively (or qualitatively) evaluate?
+I did have one conceptual question.. You mention at the outset that "The main question dream analysts [want to know] is how unusual someone's dreams are [relative to] the general population". 
+However, throughout the write-up you're clear that it's important that you find intelligible, coherent dream topics. Is the idea behind this that you need to build a model that you can intuitively (or qualitatively) evaluate?
 
-The reason I ask is because there's some work on, e.g., author identification, where it turns out that some of the best identifiers of a particular writer are non-semantic features (usage rates of grammatical items like determiners and pronouns). When these show up in a topic cluster, they're not necessarily very interpretable, but they can still be useful. Sometimes what's useful for one of these algorithms is not necessarily useful for a human, and vice versa. 
+The reason I ask is because there's some work on, e.g., author identification, where it turns out that some of the best identifiers of a particular writer are non-semantic features (usage rates of grammatical items like determiners and pronouns). 
+When these show up in a topic cluster, they're not necessarily very interpretable, but they can still be useful. 
+Sometimes what's useful for one of these algorithms is not necessarily useful for a human, and vice versa. 
 
 In any case, I just wanted to get a little clearer on why you think interpretability is key. 
 
-Related to this, I wasn't sure if the end goal was 1) to create a set of tools that a human expert could then use in classifying dreams, 2) to create a system capable of classifying them (e.g., automatically identifying outlier dreamers), or 3) both. If 2) or 3), it should be possible to use distance metrics to identify how far off one dreamer's topics are from the norm. Here's a simple example of what I mean.
-
+Related to this, I wasn't sure if the end goal was 
+1) to create a set of tools that a human expert could then use in classifying dreams, 
+2) to create a system capable of classifying them (e.g., automatically identifying outlier dreamers), or 
+3) both. If 2) or 3), it should be possible to use distance metrics to identify how far off one dreamer's topics are from the norm. 
+Here's a simple example of what I mean.
+https://markroxor.github.io/gensim/static/notebooks/distance_metrics.html
